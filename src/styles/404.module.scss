@@ -1,0 +1,73 @@
+:export {
+  container: container;
+  title: title;
+  description: description;
+  image: image;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: transparent;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #7f69ff;
+  font-family: 'Fredoka One', cursive;
+}
+
+.description {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #4caf50;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.image {
+  max-width: 80vw;
+  max-height: 80vh;
+  z-index: -1;
+  margin-bottom: 2rem;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.button {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #7f69ff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  margin-right: 1rem;
+  font-family: 'Fredoka One', cursive;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #17afe7;
+  cursor: pointer;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+}
