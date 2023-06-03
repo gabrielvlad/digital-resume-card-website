@@ -18,7 +18,7 @@ const AboutMe = () => {
         <div className="box a">
           <Fade top>
             <h2 className="about-h2">Hobbies</h2>
-            Reading, home made hardware projects(like my raspberry pi cluster xd), cooking. <br />
+            Reading, home made hardware projects (like my raspberry pi cluster xd), cooking. <br />
             Discussing bussiness ideas, historical events or history in general, productivity systems.
           </Fade>
         </div>

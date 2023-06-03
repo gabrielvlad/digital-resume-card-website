@@ -34,7 +34,7 @@ export const experience = [
   {
     name: 'Freelance Work',
     description: [
-      'Various Self-employed Freelance work during my Bachelor and Master education, doing Web Development, Graphical Design and Digital/Traditional Marketing. Informations that I cant disclose because signed NDAs. Contact me for more informations.',
+      "Various Self-employed Freelance work during my Bachelor and Master education, doing Web Development, Graphical Design and Digital/Traditional Marketing. Informations that I can't disclose because signed NDAs. Contact me for more informations.",
     ],
     company: 'Freelance Work',
     link: 'na',
