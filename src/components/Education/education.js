@@ -71,12 +71,4 @@ export const education = [
     courses: ['Placeholder1', 'Placeholder2'],
     cardClass: 'viauc-card',
   },
-  {
-    id: 4,
-    name: 'LinkedIn Learning',
-    description:
-      'Took courses furthering my professional career in computer science, ethcial hacking, and business, such the Foundations of Entrepreneurship',
-    courses: ['Introduction to Linux', 'Agile Development Practices'],
-    cardClass: 'linkedin-card',
-  },
 ];

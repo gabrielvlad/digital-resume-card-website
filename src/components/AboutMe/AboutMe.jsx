@@ -40,7 +40,7 @@ const AboutMe = () => {
         <div className="box d">
           <Fade bottom>
             <h2 className="about-h2">Music</h2>
-            I like to liseen to Eminem.
+            I like to listen to Eminem.
           </Fade>
         </div>
       </div>
