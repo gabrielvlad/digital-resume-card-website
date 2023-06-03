@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdigital_resume_card_website=self.webpackChunkdigital_resume_card_website||[]).push([[676],{5381:function(e,t,r){r.r(t);var a=r(7294),i=r(9499);t.default=function(){return a.createElement(i.Redirect,{to:"https://www.gabrielvlad.com",noThrow:!0})}}}]);
+//# sourceMappingURL=component---src-pages-digital-resume-card-website-js-0c556a79ab6823bc9763.js.map
