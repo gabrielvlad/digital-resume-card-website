@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet';
 import { container, content } from './Layout.module.css';
 import Navbar from './Navbar/Navbar';
 import BlogHeader from './BlogHeader';
+import BackToTop from '../BackToTop/BackToTop';
 
 const Layout = ({ children, page }) => {
   return (
@@ -67,6 +68,7 @@ const Layout = ({ children, page }) => {
         {page === 'index' ? <Navbar /> : <BlogHeader />}
         {children}
       </div>
+      <BackToTop />
       <Footer />
     </div>
   );
