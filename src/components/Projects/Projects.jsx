@@ -24,7 +24,7 @@ const Projects = () => {
   return (
     <div id="projects">
       <Fade>
-        <h2 className="drag">drag the card right or left to view my projects</h2>
+        <h2 className="drag">Drag the card right or left to view my projects</h2>
         <div className="projects-main uk-flex uk-flex-center uk-flex-middle">
           <AnimatePresence initial={false}>
             <Card
