@@ -105,3 +105,12 @@ ul {
     height: 57vh;
   }
 }
+
+@media screen and (max-width: 480px){
+  .box1 h1 {
+    font-size: 1.2rem; /* Adjust title to fit on mobile*/
+  }
+  .box2 p {
+    font-size: 1rem; /* Adjust description to fix mobile */
+  }
+}

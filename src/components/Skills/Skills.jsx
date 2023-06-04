@@ -23,11 +23,14 @@ const Skills = () => {
   }, [typedText]);
 
   return (
-    <>
+    <>     
       <div
         className="uk-flex uk-flex-wrap uk-flex-center uk-flex-middle"
         id="skills"
       >
+      <h2 className='instructionTerminal'>
+        You can click on a badge to see the terminal output about it
+      </h2>
         <Fade top>
           <div className="skillsblock" data-uk-grid>
             {badges.map(badge => {

@@ -7,7 +7,7 @@ const ContactItem = ({link, icon, user, description}) => {
         <div className="icon">
           <Icon className="contact-icon" icon={icon} />
         </div>
-        <div className="contact-content">
+        <div className={`contact-content ${user === 'gabrielvlad.pdf' ? 'center-text' : ''}`}>
           <h3>
             <a href={link} target="__blank" download="">
               {user}
